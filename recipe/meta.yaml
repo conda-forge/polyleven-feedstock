@@ -11,13 +11,14 @@ source:
   sha256: 73099c4d93d1a55ce9f2017e941ae4dd1528e853140c090dd6233d078ebe75c8
 
 build:
-  number: 2
+  number: 3
   skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - pip
     - python
