@@ -11,7 +11,7 @@ source:
   sha256: 299a93766761b5e5fb4092388f3dc6401224fd436c05f11c4ee48b262587e8da
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -22,6 +22,7 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - python
 
