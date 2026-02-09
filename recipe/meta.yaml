@@ -1,5 +1,5 @@
 {% set name = "polyleven" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/polyleven-{{ version }}.tar.gz
-  sha256: 00e8aeaccd5e40a6e0685e1a4bdc404fbf009b498597373bc3a83ebb41b360ee
+  sha256: d74d348387cf340051711c0dd6af993b4c264daa78470098de16f4a2b725785c
 
 build:
   number: 0
